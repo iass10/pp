@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang='pt-br'>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset='UTF-8' />
+        <title>Formulario | Site</title>
+        <link rel='stylesheet' href='index.css'/>
+    </head>
+    <body>
+        <main class='login'>
+            <section>
+                <form onsubmit="alert('Logado com sucesso!')" method="GET">
+                    
+                    <h1>AMERICANAS</h1>
+                    <img src='user.png' id='user-img' alt='nome'/>
+                    <input type='text' id='user' placeholder='nome' required/>
+
+                    <img src='user.png' id='user-img' alt='sobrenome'/>
+                    <input type='text' id='user' placeholder='sobrenome' required/>
+
+                    <img src='user.png' id='user-img' alt='celular'/>
+                    <input type='text' id='user' placeholder='celular' required/>
+
+                    <img src='user.png' id='user-img' alt='e-mail'/>
+                    <input type='text' id='user' placeholder='e-mail' required/>
+
+                    <img src='lock.png' id='password-img' alt='Cadeado'/>
+                    <input type='password' id='password' placeholder='Senha' required/>
+
+                    <input type="checkbox" checked id='remember' />
+                    <span>Lembrar-me</span>
+                    <input type='submit' value='ENTRAR' />
+                    <span>Ou entre com:</span>
+                    <div>
+                    <p> <button id='google'><div><img src='facebook.png' alt='Logo Facebook' /><span>Facebook</span></div></button>
+                   <button id='google'><div><img src='google.png' alt='Logo Google' /><span>Google</span></div></button>
+                        <button id='google'><div><img src='gmail.webp' alt='Logo Facebook' /><span>e-mail</span></div></button>
+                      <button id='google'><div><img src='whatsapp.png' alt='Logo Google' /><span>whatsapp</span></div></button></p>
+                    </div>
+                    <p><span>Não tem um cadastro? <a href='#'>Cadastre&nbsp;-&nbsp;se&nbsp;já</a></span></p>
+                <p> <span>ja tem conta? <a href='#'>clique&nbsp;-&nbsp;em&nbsp;entar</a></span></p>
+                </form>
+            </section>
+        </main>
+    </body>
+</html>
